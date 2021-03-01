@@ -1,21 +1,19 @@
 /*
-
-*****
-*****
-*****
-*****
-******
-     *     *****
-     *     *****
-     ***********
-     *     *****
-     *     *****
-******
-*****
-*****
-*****
-*****
-
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * * 
+          *     * * * * * 
+          *     * * * * * 
+          * * * * * * * * 
+          *     * * * * * 
+          *     * * * * * 
+* * * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
 */
 
 #include <iostream>
@@ -34,7 +32,8 @@ int main()
     {
         for (int j = 1; j <= n; j++)
         {
-            cout << "*";
+            cout << "*"
+                 << " ";
         }
         cout << "\n";
     }
@@ -42,14 +41,15 @@ int main()
     // 	print n+1 stars
     for (int i = 1; i <= n + 1; i++)
     {
-        cout << "*";
+        cout << "*"
+             << " ";
     }
     cout << endl;
 
     // 	print star & spaces
     for (int i = 1; i <= n / 2; i++)
-    { // 	print n spaces
-        for (int i = 1; i <= n; i++)
+    {
+        for (int i = 1; i <= n * 2; i++)
         {
             cout << " ";
         }
@@ -66,29 +66,31 @@ int main()
         // 	print n stars
         for (int i = 1; i <= n; i++)
         {
-            cout << "*";
+            cout << "*"
+                 << " ";
         }
 
         cout << endl;
     }
 
     // 	print n spaces
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= n * 2; i++)
     {
         cout << " ";
     }
 
-    // 	 print n*2+1 stars
-    for (int i = 1; i <= n * 2 + 1; i++)
+    // 	 print (n*3+1)/2 stars
+    for (int i = 1; i <= (3 * n + 1) / 2; i++)
     {
-        cout << "*";
+        cout << "*"
+             << " ";
     }
     cout << endl;
 
     // 	print star & spaces
     for (int i = 1; i <= n / 2; i++)
-    { // 	print n spaces
-        for (int i = 1; i <= n; i++)
+    {
+        for (int i = 1; i <= n * 2; i++)
         {
             cout << " ";
         }
@@ -105,7 +107,8 @@ int main()
         // 	print n stars
         for (int i = 1; i <= n; i++)
         {
-            cout << "*";
+            cout << "*"
+                 << " ";
         }
 
         cout << endl;
@@ -114,7 +117,8 @@ int main()
     // 	print n+1 stars
     for (int i = 1; i <= n + 1; i++)
     {
-        cout << "*";
+        cout << "*"
+             << " ";
     }
     cout << endl;
 
@@ -123,7 +127,8 @@ int main()
     {
         for (int j = 1; j <= n; j++)
         {
-            cout << "*";
+            cout << "*"
+                 << " ";
         }
         cout << endl;
     }
